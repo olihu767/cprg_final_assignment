@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>login</title>
+    <%- include('./partials/css'); %>
+    <!-- <link rel="stylesheet" href="static/css/login.css" /> -->
+  </head>
+  <body>
+    <header>
+      <%- include('./partials/header'); %>
+      <div class="loginbox">
+        <h1>Login In</h1>
+        <p>Mandatory fields marked with *</p>
+        <form>
+          <p>Email Address:</p>
+          <span class="required"?>*</span>
+          <input email="email" type="email" placeholder="Enter Email" 
+            required
+          />
+          <p>Password minuium 8 characters</p>
+          <span class="required"?>*</span>
+          <input password="password" type="password" pattern = ".{8}" placeholder="Enter Passwords" 
+            required
+          />
+          <br />
+          <input type="submit" value="login" />
+          <br />
+          <a href="#">Lost your password?</a>
+          <br />
+          <a href="register.html">Don't have an account?</a>
+        </form>
+      </div>
+    </header>
+    <div id="main_footer">
+      <%- include('./partials/footer'); %>
+  </body>
+</html>

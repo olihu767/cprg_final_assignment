@@ -1,0 +1,42 @@
+/* login */
+
+.loginbox{
+    width: 320px;
+    height: 510px;
+    
+    background: #000;
+    color: #fff;
+    
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    
+    box-sizing: border-box;
+    border: solid #5B6DCD 10px;
+    padding: 50px 70px;
+}
+
+.loginbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.loginbox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.loginbox input[type="submit"]
+{
+    border: none;
+    outline: nope;
+    height: 30px;
+
+    background:  #fb2525;
+    color: #fff;
+
+    font-size: 18px;
+    border-radius: 30px;
+}

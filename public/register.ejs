@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>register</title>
+        <%- include('./partials/css'); %>
+        <!-- <link rel="stylesheet" href="static/css/login.css" /> -->
+    </head>
+    <body>
+        <header>
+            <%- include('./partials/header'); %>
+            <div class="loginbox">
+                <h1>Register</h1>
+                <form>
+                    <p>Full Name</p>
+                    <input name="name" type="text" placeholder="Enter Name"
+                        required>
+                    <p>Email Address:</p>
+                    <span class="required"?>*</span>
+                    <input email="email" type="email" placeholder="Enter Email"
+                        required>
+                    <p>Password:</p>
+                    <p>(Password minuium 8 characters)</p>
+                    <span class="required"?>*</span>
+                    <input password="password" type="password" placeholder="Enter Passwords" 
+                        required>
+                    <br>
+                    <input type="submit" value="Sign Up">
+                    <br>
+                    <input type="checkbox">
+                    <label>Subscribe Updated Newsletter</label>
+                </form>
+            </div>
+        </header>
+        <div id="main_footer">
+        <%- include('./partials/footer'); %>
+    </body>
+</html>

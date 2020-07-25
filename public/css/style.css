@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css2?family=Mitr:wght@300&family=Pacifico&family=Trade+Winds&display=swap");
+
+body {
+  margin: auto;
+  padding: 0; 
+  background: url(https://picsum.photos/id/231/1600/770);
+}
+
+body h1{
+  text-align: center;
+  font-size: xxx-large;
+}
+
+/*.container{
+    widows: 80%;
+}*/
+
+/* nav bar */
+
+nav {
+  background: #0000ff;
+  height: 80px;
+  width: 100%;
+}
+
+label.logo {
+  color: white;
+
+  font-size: 35px;
+  font-family: "Mitr", sans-serif;
+  font-weight: bold;
+
+  line-height: 80px;
+  padding: 0 100px;
+  float: left;
+}
+
+nav ul {
+  margin-right: 20px;
+  text-align: center;
+  float: right;
+}
+
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+
+  justify-content: space-between;
+
+  font-family: "Mitr", sans-serif;
+}
+
+nav ul li a {
+  color: white;
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3;
+  text-transform: uppercase;
+}
+
+a.active,
+a:hover {
+  background: #1b9bff;
+  transition: 0.5s;
+}
+
+/* style with the container*/
+
+.container{
+  width: fit-content;
+  text-align: center;
+margin: auto;
+}
+
+.header1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header2 {
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  border: none;
+  outline: nope;
+  height: 70px;
+  border-radius: 500px;
+
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+  color: white;
+
+  font-weight: bold;
+  padding: 65;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.contact {
+  width: 85%;
+  max-width: 600px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Footer format */
+
+#main_footer {
+  position: absolute;
+  bottom: 0;
+  left: 45%;
+}
+footer {
+  width: 100%;
+  color: white;
+}
+
+/* login */
+
+.loginbox {
+  width: 320px;
+  height: 510px;
+
+  background: #000;
+  color: #fff;
+
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+
+  box-sizing: border-box;
+  border: solid #5b6dcd 10px;
+  padding: 50px 70px;
+}
+
+.loginbox p {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+
+.loginbox input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.loginbox input[type="submit"] {
+  border: none;
+  outline: nope;
+  height: 30px;
+
+  background: #fb2525;
+  color: #fff;
+
+  font-size: 18px;
+  border-radius: 30px;
+}
+
+input:valid {
+  background-color: #cf257a;
+}
+
+span{
+  color: red;
+}
+
+/* Gallery */
+.gallery{
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  max-width: 100%;
+  margin: auto
+}
+
+.gallery div{
+  
+  justify-content: flex-start;
+  background-color: #e4e5eb;
+  color: black;
+
+  width: 95vw;
+  max-width: 50ch; 
+
+  margin: 20px;
+
+  border: 4px solid rgb(11, 123, 167);
+  border-radius: 15px;
+}

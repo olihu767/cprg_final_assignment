@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel Agent</title>
+    <!-- <link rel="stylesheet" href="static/css/style.css" /> -->
+    <!-- /<link rel="stylesheet" href ="static/css/login.css"/> -->
+    <%- include('./partials/css'); %>
+  </head>
+  <body>
+    <%- include('./partials/header'); %>
+    <div class="container">
+      <h1>Travel Free when sign up with us</h1>
+      <button class="btn"><a href="register.html"> SIGN UP NOW!</a></button>
+      <div class="contact">
+        <h2 class="header2">Contact us</h2>
+        <form id="contact-us" method="post" action="">
+          <input name="name" type="text" class="form-control" placeholder="Enter
+            Name"
+            required
+            />
+          <br />
+          <input email="email" type="text" class="form-control"
+            placeholder="Email"
+            required
+            />
+          <br />
+          <input message="message" type="text" class="form-control"
+            placeholder="Enter Message"
+            required
+            />
+        </form>
+        <input type="submit" value="Send" />
+      </div>
+    </div>
+    <div id="main_footer">
+      <%- include('./partials/footer'); %>
+    </div>
+  </body>
+</html>
