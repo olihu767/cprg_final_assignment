@@ -31,7 +31,7 @@ app.set('view engine', 'ejs');
 
 // cors orgin URL - Allow inbound traffic from origin
 corsOptions = {
-  origin:"https://dashboard.heroku.com",
+  origin:"https://agile-fjord-03888.herokuapp.com/",
   optionsSuccessStatus: 200
 };
 app.use(cors(corsOptions));
