@@ -1,4 +1,4 @@
-fetch("http://localhost:3000/api/destinations")
+fetch("https://agile-fjord-03888.herokuapp.com/")
   .then(function(response){
     return response.json();
   })
